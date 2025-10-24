@@ -42,3 +42,4 @@
 /zmk/
 /zmk/*
 /build/
+.zmk/
