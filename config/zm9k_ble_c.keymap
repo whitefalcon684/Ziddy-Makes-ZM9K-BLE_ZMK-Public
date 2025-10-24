@@ -42,7 +42,7 @@
 
         default_layer {
             bindings = <
-              &RAPW  &ADPW  &kp C
+              &RAPW  &ADPW  &bootloader
               &kp D  &kp E  &kp F
 &lt 1 C_MUTE  &kp G  &kp H  &kp I
             >;
