@@ -25,14 +25,14 @@
         RAPW: RAPW {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(U) &kp N &kp I &kp C &kp O &kp R &kp N &kp N7 &kp STAR &kp LS(O) &kp U &kp T &kp M &kp A &kp T &kp C &kp H &kp STAR &kp LS(S) &kp U &kp B &kp A &kp T &kp O &kp M &kp I &kp C>;
+            bindings = <&kp LS(U) &kp N &kp L &kp I &kp N &kp E &kp D &kp STAR &kp LS(G) &kp R &kp O &kp O &kp V &kp E &kp N4 &kp STAR &kp LS(E) &kp X &kp P &kp L &kp O &kp D &kp E>;
             label = "RAPW";
         };
 
         ADPW: ADPW {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(B) &kp L &kp I &kp N &kp K &kp S &kp STAR &kp LS(S) &kp E &kp P &kp T &kp E &kp M &kp B &kp E &kp R &kp STAR &kp LS(V) &kp E &kp N &kp T &kp R &kp I &kp C &kp L &kp E &kp N3>;
+            bindings = <&kp LS(B) &kp L &kp I &kp N &kp K &kp S &kp STAR &kp LS(S) &kp E &kp P &kp T &kp E &kp M &kp B &kp E &kp R &kp STAR &kp LS(V) &kp E &kp N &kp T &kp R &kp I &kp C &kp L &kp E &kp N3>;
             label = "ADPW";
         };
     };
