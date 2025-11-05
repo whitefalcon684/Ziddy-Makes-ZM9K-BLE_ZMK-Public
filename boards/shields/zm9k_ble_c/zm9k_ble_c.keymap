@@ -42,9 +42,10 @@
 
         default_layer {
             bindings = <
-              &RAPW  &ADPW  &bootloader
-              &kp D  &kp E  &kp F
-&lt 1 C_MUTE  &kp G  &kp H  &kp I
+              &RAPW  &ADPW  &kp RET
+              &kp LS(LG(LEFT_ARROW))   &kp LS(TAB)  &kp LS(LG(RIGHT_ARROW))
+&lt 1 C_MUTE  &kp ESC   &kp LG(D)   &kp LS(LC(ESC))
+            >;
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -55,7 +56,7 @@
             bindings = <
         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
         &none         &none         &none
-&trans  &none         &none         &none
+&trans  &bootloader         &none         &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -86,6 +87,8 @@
 };
 
 	4layer {
+
+	   
     display-name = "4 - Layer";
     bindings = <
                               &none        &none         &none
@@ -97,6 +100,8 @@
 };
 
 	5layer {
+
+	   
     display-name = "5 - Layer";
     bindings = <
                               &none        &none         &none
@@ -108,6 +113,8 @@
 };
 
 	6layer {
+
+	   
     display-name = "6 - Layer";
     bindings = <
                               &none        &none         &none
@@ -119,6 +126,8 @@
 };
 
 	7layer {
+
+	   
     display-name = "7 - Layer";
     bindings = <
                               &none        &none         &none
@@ -130,6 +139,8 @@
 };
 
 	8layer {
+
+	   
     display-name = "8 - Layer";
     bindings = <
                               &none        &none         &none
@@ -139,5 +150,6 @@
 
     sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
 		};
+
 	};
 };
