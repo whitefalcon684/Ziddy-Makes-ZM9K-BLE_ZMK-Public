@@ -44,7 +44,7 @@
             bindings = <
               &RAPW  &ADPW  &kp RET
               &kp LS(LG(LEFT_ARROW))   &kp LS(TAB)  &kp LS(LG(RIGHT_ARROW))
-&lt 1 C_MUTE  &kp ESC   &kp LG(D)   &kp LS(LC(ESC))
+&lt 1 C_MUTE  &kp LC(TAB)   &kp LG(D)   &kp LS(LC(ESC))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
