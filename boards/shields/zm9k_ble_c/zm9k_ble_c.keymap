@@ -25,7 +25,7 @@
         RAPW: RAPW {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(S) &kp U &kp B &kp L &kp E &kp A &kp S &kp E &kp STAR &kp LS(S) &kp P &kp O &kp O &kp F &kp STAR &kp LS(C) &kp R &kp U &kp S &kp H &kp A &kp B &kp L &kp E &kp N2>;
+            bindings = <&kp LS(R) &kp E &kp F &kp O &kp R &kp M &kp E &kp R &kp STAR &kp LS(O) &kp V &kp E &kp R &kp N &kp I &kp G &kp H &kp T &kp STAR &kp LS(S) &kp P &kp E &kp C &kp U &kp L &kp A &kp T &kp E &kp N0>;
             label = "RAPW";
         };
 
